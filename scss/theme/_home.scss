@@ -98,6 +98,20 @@
 		 background-position: 50% 90% 50% 50%;
 	}
 }
+.banner-area-event {
+	background:url(../img/revenant/webrcc.png) center;
+	background-size:cover;
+	.fullscreen {
+		@include media-breakpoint-down (lg) {
+			height: 920px !important;
+		}
+	}
+
+	@media(max-width:768px){
+		background:url(../img/revenant/webrcc.png);
+		 background-position: 50% 90% 50% 50%;
+	}
+}
 .banner-content {
 	margin-top:-250px;
 	h1{
